@@ -24,6 +24,7 @@ ODM_MANIFEST_F_FILES := $(DEVICE_PATH)/sku/manifest_f.xml
 ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/sku/manifest_n.xml
 
 # Kernel
+TARGET_KERNEL_CLANG_VERSION := r487747c
 TARGET_KERNEL_CONFIG += vendor/ext_config/capri-default.config
 
 # Kernel Modules - Vendor Boot
